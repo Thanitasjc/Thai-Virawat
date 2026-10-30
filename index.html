@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thai Virawat | Specialist in T&amp;D Solution</title>
+  <meta name="description" content="บริษัท ไทยวีรวัฒน์ จำกัด ผู้นำเข้าและจัดจำหน่ายอุปกรณ์ไฟฟ้าแรงสูง สำหรับระบบส่งและจำหน่ายไฟฟ้า" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <a href="tel:+6621234567">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span class="hide-sm">02-123-4567</span>
+        </a>
+        <a href="mailto:info@thaivirawat.co.th">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span class="hide-sm">info@thaivirawat.co.th</span>
+        </a>
+      </div>
+      <div class="topbar-right">
+        <div class="lang-switch" aria-label="Language">
+          <a href="#" class="active" hreflang="th">TH</a>
+          <span>|</span>
+          <a href="#" hreflang="en">EN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="บริษัท ไทยวีรวัฒน์ จำกัด">
+        <img src="assets/logo.png" alt="บริษัท ไทยวีรวัฒน์ จำกัด — SINCE 1966 · BANGKOK" width="280" height="64" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="เปิดเมนู" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainnav" aria-label="เมนูหลัก">
+        <ul>
+          <li class="has-drop">
+            <button type="button" class="drop-toggle" id="dropCoToggle" aria-expanded="false" aria-controls="dropCompany">
+              <span data-en="Thai Virawat">ไทยวีรวัฒน์</span>
+              <svg width="11" height="7" viewBox="0 0 11 7" aria-hidden="true"><path d="M1 1.5 5.5 5.5 10 1.5" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+            <div class="drop" id="dropCompany" hidden>
+              <a href="about.html" data-en="About us">เกี่ยวกับเรา</a>
+              <a href="products.html" data-en="Products and services">ผลิตภัณฑ์และบริการ</a>
+              <div class="drop-sep"></div>
+              <a href="#" data-en="Regulations and code of conduct">ข้อบังคับ และจรรยาบรรณบริษัท<span class="drop-doc">PDF ↓</span></a>
+              <a href="#" data-en="Anti-corruption policy">นโยบายต่อต้านคอร์รัปชั่น<span class="drop-doc">PDF ↓</span></a>
+              <div class="drop-sep"></div>
+              <a href="careers.html" data-en="Careers">ร่วมงานกับเรา</a>
+              <a href="news.html" data-en="Corporate news">ข่าวสารองค์กร</a>
+            </div>
+          </li>
+          <li class="has-drop">
+            <button type="button" class="drop-toggle" id="dropToggle" aria-expanded="false" aria-controls="dropProducts">
+              <span data-en="Products">ผลิตภัณฑ์</span>
+              <svg width="11" height="7" viewBox="0 0 11 7" aria-hidden="true"><path d="M1 1.5 5.5 5.5 10 1.5" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </button>
+            <div class="drop" id="dropProducts" hidden>
+              <a href="products-switchgear.html">สวิตช์เกียร์</a>
+              <a href="products-substation.html">สวิตช์เกียร์สถานีไฟฟ้า</a>
+              <a href="products-switches.html">สวิตช์ปลดวงจร</a>
+              <a href="products-faultind.html">อุปกรณ์ตรวจจับความผิดปกติในสายส่ง</a>
+              <a href="products-cable.html">อุปกรณ์ประกอบสายเคเบิล</a>
+              <a href="products-insulation.html">ลูกถ้วย</a>
+              <a href="products-connectors.html">อุปกรณ์เชื่อมต่อสถานีไฟฟ้า</a>
+              <a href="products-transformers.html">หม้อแปลงไฟฟ้า</a>
+              <div class="drop-sep"></div>
+              <a class="drop-all" href="products.html">ผลิตภัณฑ์ทั้งหมด<span class="drop-all-n">27</span></a>
+            </div>
+          </li>
+          <li><a href="principals.html" data-en="Principals">ผู้ผลิตที่เราเป็นตัวแทน</a></li>
+          <li><a href="index.html#business" data-en="Business">ธุรกิจของเรา</a></li>
+          <li><a href="subsidiaries.html" data-en="Group">บริษัทในเครือ</a></li>
+          <li><a href="contact.html" data-en="Contact">ติดต่อเรา</a></li>
+        </ul>
+      </nav>
+      <a class="btn-header-cta" href="contact.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="16" y2="17"/><line x1="8" y1="9" x2="10" y2="9"/></svg>
+        <span>ติดต่อฝ่ายขาย / ขอใบเสนอราคา</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-roledescription="carousel" aria-label="Hero banner">
+      <div class="hero-slider" data-hero-slider>
+        <div class="hero-track">
+          <div class="hero-slide is-active" role="group" aria-roledescription="slide" aria-label="1 จาก 3">
+            <img class="hero-slide-img" src="assets/hero-slide-1.jpg" alt="Specialist in T&amp;D Solution — 60 Years of Experience" width="1920" height="815" />
+          </div>
+          <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 จาก 3" aria-hidden="true">
+            <div class="hero-slide-panel hero-slide-panel--products">
+              <div class="hero-slide-copy">
+                <p class="hero-eyebrow">Products &amp; Services</p>
+                <h2>อุปกรณ์ไฟฟ้าแรงสูง<br />สำหรับระบบ T&amp;D</h2>
+                <p>นำเข้าและจัดจำหน่าย Switchgear, Insulators และ Cable Accessories จากผู้ผลิตชั้นนำ</p>
+                <a class="btn btn-primary" href="products.html">ดูผลิตภัณฑ์</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="3 จาก 3" aria-hidden="true">
+            <div class="hero-slide-panel hero-slide-panel--contact">
+              <div class="hero-slide-copy">
+                <p class="hero-eyebrow">Your Electrical Solution</p>
+                <h2>พร้อมเป็นพันธมิตร<br />ด้านระบบไฟฟ้าของคุณ</h2>
+                <p>ติดต่อทีมงานเพื่อสอบถามผลิตภัณฑ์ นัดหมาย หรือแจ้งความต้องการของโครงการ</p>
+                <a class="btn btn-primary" href="contact.html">ติดต่อเรา</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="hero-nav hero-nav--prev" type="button" data-hero-prev aria-label="สไลด์ก่อนหน้า">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="hero-nav hero-nav--next" type="button" data-hero-next aria-label="สไลด์ถัดไป">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <div class="hero-dots" role="tablist" aria-label="เลือกสไลด์">
+          <button type="button" class="hero-dot is-active" role="tab" aria-selected="true" aria-label="สไลด์ 1" data-hero-dot="0"></button>
+          <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="สไลด์ 2" data-hero-dot="1"></button>
+          <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="สไลด์ 3" data-hero-dot="2"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-intro">
+      <div class="container intro-layout">
+        <div class="intro-main">
+          <p class="intro-eyebrow">Thai Virawat Co., Ltd. — Est. 1966 — Bangkok</p>
+          <h2 class="intro-title">Specialist in<br />T&amp;D Solution</h2>
+          <p class="intro-subtitle">ผู้นำเข้าและจัดจำหน่ายอุปกรณ์ไฟฟ้าแรงสูง สำหรับระบบส่งและระบบจำหน่ายไฟฟ้า</p>
+          <div class="intro-actions">
+            <a class="btn btn-primary" href="products.html">ดูผลิตภัณฑ์ตามผู้ผลิต</a>
+            <a class="btn btn-outline" href="contact.html">ขอใบเสนอราคา</a>
+          </div>
+        </div>
+        <aside class="intro-aside">
+          <p>
+            ด้วยประสบการณ์กว่า 60 ปี ไทยวิวัฒน์เป็นตัวแทนจำหน่ายผู้ผลิตชั้นนำ
+            จัดหาอุปกรณ์ไฟฟ้าแรงสูงให้หน่วยงานอย่าง
+            <strong>EGAT</strong>, <strong>MEA</strong>, <strong>PEA</strong>
+            และลูกค้าภาคเอกชน
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-partners" id="partners">
+      <div class="container">
+        <div class="partners-head">
+          <div class="partners-head-main">
+            <p class="partners-eyebrow"><span>Principals</span></p>
+            <h2 class="partners-title">ผู้ผลิตที่เราเป็นตัวแทน</h2>
+          </div>
+          <a class="partners-all" href="principals.html">ดูทั้งหมด <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="partner-grid">
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-hapam.html" aria-label="ดูรายละเอียด Hapam"></a>
+            <div class="partner-card-logo">
+              <img class="brand-logo-img brand-logo-img--hapam" src="assets/partners/logos/hapam.png" alt="HAPAM" width="160" height="48" />
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--hapam" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Hapam</h3>
+                <p class="partner-country">Netherlands</p>
+                <p class="partner-desc">อุปกรณ์ตัดตอนภายนอกอาคารสำหรับสถานีไฟฟ้าแรงสูง</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>High Voltage Disconnectors, Outdoor Installation</li>
+                <li>Earthing Switches</li>
+              </ul>
+              <a class="partner-link" href="principal-hapam.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-dalian.html" aria-label="ดูรายละเอียด Dalian Insulator"></a>
+            <div class="partner-card-logo">
+              <img class="brand-logo-img" src="assets/partners/logos/dalian.png" alt="Dalian Insulator" width="160" height="57" />
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--dalian" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Dalian Insulator</h3>
+                <p class="partner-country">China</p>
+                <p class="partner-desc">ลูกถ้วยฉนวนสำหรับสายส่งและสถานีไฟฟ้าทุกระดับแรงดัน</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>High Voltage Porcelain Insulators</li>
+                <li>Composite (Polymer) Insulators</li>
+              </ul>
+              <a class="partner-link" href="principal-dalian.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-3m.html" aria-label="ดูรายละเอียด 3M"></a>
+            <div class="partner-card-logo">
+              <img class="brand-logo-img brand-logo-img--3m" src="assets/partners/logos/3m.png" alt="3M — Science. Applied to Life." width="200" height="48" />
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--3m" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>3M</h3>
+                <p class="partner-country">United States</p>
+                <p class="partner-desc">อุปกรณ์ประกอบปลายสายและจุดต่อสายเคเบิลแรงดันปานกลาง</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>Medium Voltage Cable Accessories</li>
+                <li>Terminations, Joints and Connectors</li>
+              </ul>
+              <a class="partner-link" href="principal-3m.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-italian-insulator.html" aria-label="ดูรายละเอียด G&amp;W Electric"></a>
+            <div class="partner-card-logo">
+              <img class="brand-logo-img brand-logo-img--gw" src="assets/partners/logos/gw.png" alt="G&amp;W" width="180" height="56" />
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--gw" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>G&amp;W Electric</h3>
+                <p class="partner-country">United States</p>
+                <p class="partner-desc">อุปกรณ์ตัดตอนและป้องกันในระบบจำหน่าย พร้อมอุปกรณ์ประกอบสายเคเบิล</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>High Voltage Cable Accessories</li>
+                <li>Submersible and Underground Distribution Switches</li>
+                <li>Overhead Distribution Switches and Reclosers</li>
+              </ul>
+              <a class="partner-link" href="principal-italian-insulator.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-nortroll.html" aria-label="ดูรายละเอียด Nortroll"></a>
+            <div class="partner-card-logo">
+              <span class="brand-logo brand-logo--nortroll">NORTROLL</span>
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--nortroll" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Nortroll</h3>
+                <p class="partner-country">Norway</p>
+                <p class="partner-desc">ระบุตำแหน่งกระแสผิดพร่องบนสายเหนือดินและสายใต้ดิน</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>Line Fault Indicators</li>
+                <li>Cable Fault Indicators</li>
+                <li>Remote Control Switching Devices</li>
+              </ul>
+              <a class="partner-link" href="principal-nortroll.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-lorunser.html" aria-label="ดูรายละเอียด Lorünser"></a>
+            <div class="partner-card-logo">
+              <span class="brand-logo brand-logo--lorunser">LORÜNSER</span>
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--lorunser" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Lorünser</h3>
+                <p class="partner-country">Austria</p>
+                <p class="partner-desc">อุปกรณ์เชื่อมต่อบัสบาร์และตัวนำในสถานีไฟฟ้า</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>Substation Connectors</li>
+              </ul>
+              <a class="partner-link" href="principal-lorunser.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-togami.html" aria-label="ดูรายละเอียด Togami Electric"></a>
+            <div class="partner-card-logo">
+              <span class="brand-logo brand-logo--togami">Togami</span>
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--togami" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Togami Electric</h3>
+                <p class="partner-country">Japan</p>
+                <p class="partner-desc">สวิตช์ตัดตอนแบบมีโหลดและสถานีไฟฟ้าสำเร็จรูป</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>SF6 Gas Load Break Switch</li>
+                <li>Ring Main Unit (RMU)</li>
+                <li>Compact Unit Substation</li>
+                <li>Sectionalizer Bypass Cable</li>
+              </ul>
+              <a class="partner-link" href="principal-togami.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-joslyn.html" aria-label="ดูรายละเอียด Joslyn Hi-Voltage"></a>
+            <div class="partner-card-logo">
+              <span class="brand-logo brand-logo--joslyn">JOSLYN</span>
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--joslyn" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Joslyn Hi-Voltage</h3>
+                <p class="partner-country">United States</p>
+                <p class="partner-desc">สวิตช์คาปาซิเตอร์และรีแอคเตอร์ ระบบควบคุม และอุปกรณ์เชื่อมต่อ</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>VerSaVac® (VSV) Distribution Capacitor Switches</li>
+                <li>Varmaster (VDM) Substation Capacitor and Reactor Switches</li>
+                <li>Capacitor Controls</li>
+                <li>Electric Furnace Switches and Interrupter Attachments</li>
+                <li>Substation and Compression Connectors</li>
+              </ul>
+              <a class="partner-link" href="principal-joslyn.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="partner-card">
+            <a class="partner-card-stretch" href="principal-emek.html" aria-label="ดูรายละเอียด Emek"></a>
+            <div class="partner-card-logo">
+              <span class="brand-logo brand-logo--emek">emek</span>
+            </div>
+            <div class="partner-card-body">
+              <div class="partner-visual partner-visual--emek" aria-hidden="true"></div>
+              <div class="partner-meta">
+                <h3>Emek</h3>
+                <p class="partner-country">Türkiye</p>
+                <p class="partner-desc">หม้อแปลงเครื่องมือวัดสำหรับระบบส่งและระบบจำหน่าย</p>
+              </div>
+            </div>
+            <div class="partner-card-foot">
+              <ul>
+                <li>Current Transformers</li>
+                <li>Voltage Transformers</li>
+              </ul>
+              <a class="partner-link" href="principal-emek.html">ผลิตภัณฑ์ที่จัดจำหน่าย <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-business" id="business">
+      <div class="container">
+        <div class="business-head">
+          <div class="business-head-main">
+            <p class="business-eyebrow">Business Overview</p>
+            <h2 class="business-title">ธุรกิจของเรา</h2>
+          </div>
+          <p class="business-lead">นำเข้า จัดจำหน่าย และให้บริการหลังการขายสำหรับอุปกรณ์ไฟฟ้าแรงสูง พร้อมการฝึกอบรมและการทดสอบ เพื่อให้การไฟฟ้าใช้งานอุปกรณ์ได้เต็มประสิทธิภาพ</p>
+        </div>
+
+        <div class="business-rows">
+          <div class="business-row">
+            <span class="business-num">01</span>
+            <h3 class="business-row-title">ธุรกิจหลัก</h3>
+            <p class="business-row-desc">นำเข้าและจำหน่ายส่งอุปกรณ์ไฟฟ้าแรงสูงสำหรับระบบส่งและระบบจำหน่ายกำลังไฟฟ้า</p>
+          </div>
+          <div class="business-row">
+            <span class="business-num">02</span>
+            <h3 class="business-row-title">ผลิตภัณฑ์และบริการ</h3>
+            <p class="business-row-desc">ด้วยประสบการณ์กว่า 60 ปี และความมุ่งมั่นในการจัดหาอุปกรณ์ไฟฟ้าแรงสูงคุณภาพสูงสุดเข้าสู่ประเทศไทย บริษัทได้สร้างความสัมพันธ์ทางธุรกิจที่แข็งแกร่งอย่างต่อเนื่องกับการไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) การไฟฟ้านครหลวง (กฟน.) และการไฟฟ้าส่วนภูมิภาค (กฟภ.)</p>
+          </div>
+          <div class="business-row">
+            <span class="business-num">03</span>
+            <h3 class="business-row-title">ลูกค้าของเรา</h3>
+            <p class="business-row-desc">นอกเหนือจากผลิตภัณฑ์และบริการ ไทยวีรวัฒน์ยังร่วมมือกับผู้ผลิตต่างประเทศในการให้บริการหลังการขาย คำแนะนำการติดตั้ง การทดสอบหน้างาน และการฝึกอบรมผลิตภัณฑ์ เพื่อให้ลูกค้าได้รับประโยชน์สูงสุดจากอุปกรณ์ที่จัดซื้อ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="subsidiaries">
+      <div class="container">
+        <div class="subsidiaries-head">
+          <div class="subsidiaries-head-main">
+            <p class="subsidiaries-eyebrow">Thai Virawat Corporate Group – 3 Companies</p>
+            <h2 class="subsidiaries-title">บริษัทในเครือ</h2>
+          </div>
+          <p class="subsidiaries-desc">สามธุรกิจภายใต้กลุ่มเดียวกัน ได้แก่ อุปกรณ์ไฟฟ้า อสังหาริมทรัพย์เชิงพาณิชย์ และเครื่องดื่มเพื่อสุขภาพ</p>
+        </div>
+        <div class="sub-slider" data-sub-slider>
+          <button class="sub-nav sub-nav--prev" type="button" data-sub-prev aria-label="ก่อนหน้า">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+
+          <div class="sub-viewport">
+            <div class="sub-track" data-sub-track>
+              <article class="sub-card">
+                <div class="sub-card-media">
+                  <img src="assets/subsidiaries/real-estate.jpg" alt="อาคารสำนักงาน — บริษัท ไทยรัตน์วัฒน์ จำกัด" width="800" height="450" loading="lazy" />
+                </div>
+                <div class="sub-card-body">
+                  <h3>บริษัท ไทยรัตน์วัฒน์ จำกัด</h3>
+                  <p>ธุรกิจอสังหาริมทรัพย์เชิงพาณิชย์ในเครือ ที่สนับสนุนการเติบโตของกลุ่มบริษัทไทยวีรวัฒน์</p>
+                  <a class="read-more" href="subsidiaries.html">รายละเอียด</a>
+                </div>
+              </article>
+
+              <article class="sub-card">
+                <div class="sub-card-media">
+                  <img src="assets/subsidiaries/energy.jpg" alt="กังหันลมและพลังงาน — บริษัท ไทยรัตน์วัฒน์ เอ็นเนอร์ยี่ จำกัด" width="800" height="450" loading="lazy" />
+                </div>
+                <div class="sub-card-body">
+                  <h3>บริษัท ไทยรัตน์วัฒน์ เอ็นเนอร์ยี่ จำกัด</h3>
+                  <p>มุ่งเน้นธุรกิจพลังงานและโซลูชันด้านพลังงาน เพื่อรองรับความต้องการในยุคเปลี่ยนผ่านพลังงาน</p>
+                  <a class="read-more" href="subsidiaries.html">รายละเอียด</a>
+                </div>
+              </article>
+
+              <article class="sub-card">
+                <div class="sub-card-media">
+                  <img src="assets/subsidiaries/beverage.jpg" alt="เครื่องดื่มเพื่อสุขภาพ — บริษัท เอกชัยปฐมฟาร์ม จำกัด" width="800" height="450" loading="lazy" />
+                </div>
+                <div class="sub-card-body">
+                  <h3>บริษัท เอกชัยปฐมฟาร์ม จำกัด</h3>
+                  <p>ธุรกิจเครื่องดื่มเพื่อสุขภาพและเกษตรในเครือ สะท้อนความหลากหลายของกลุ่มบริษัท</p>
+                  <a class="read-more" href="subsidiaries.html">รายละเอียด</a>
+                </div>
+              </article>
+
+              <article class="sub-card">
+                <div class="sub-card-media">
+                  <img src="assets/subsidiaries/solar.jpg" alt="โซลาร์ฟาร์ม — โครงการพลังงานทดแทน" width="800" height="450" loading="lazy" />
+                </div>
+                <div class="sub-card-body">
+                  <h3>โครงการพลังงานทดแทน</h3>
+                  <p>โซลูชันพลังงานแสงอาทิตย์และพลังงานสะอาดภายใต้กลุ่มบริษัทไทยวีรวัฒน์</p>
+                  <a class="read-more" href="subsidiaries.html">รายละเอียด</a>
+                </div>
+              </article>
+
+              <article class="sub-card">
+                <div class="sub-card-media">
+                  <img src="assets/subsidiaries/office.jpg" alt="พื้นที่สำนักงาน — อสังหาริมทรัพย์เชิงพาณิชย์" width="800" height="450" loading="lazy" />
+                </div>
+                <div class="sub-card-body">
+                  <h3>อสังหาริมทรัพย์เชิงพาณิชย์</h3>
+                  <p>พื้นที่สำนักงานและอาคารเชิงพาณิชย์ ที่ตอบโจทย์การใช้งานขององค์กรสมัยใหม่</p>
+                  <a class="read-more" href="subsidiaries.html">รายละเอียด</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <button class="sub-nav sub-nav--next" type="button" data-sub-next aria-label="ถัดไป">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <div class="sub-dots" data-sub-dots aria-label="เลือกสไลด์"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-news" id="news">
+      <div class="container">
+        <div class="news-head">
+          <div class="news-head-main">
+            <p class="news-eyebrow">News &amp; Activities</p>
+            <h2 class="news-title">ข่าวสารองค์กร</h2>
+          </div>
+          <p class="news-lead">งานแสดงสินค้า โครงการร่วมกับการไฟฟ้า และกิจกรรมเพื่อสังคม</p>
+        </div>
+
+        <div class="news-slider" data-news-slider>
+          <button class="news-nav news-nav--prev" type="button" data-news-prev aria-label="ก่อนหน้า">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+
+          <div class="news-viewport">
+            <div class="news-track" data-news-track>
+              <article class="news-card">
+                <div class="news-thumb">
+                  <img src="assets/news/news-1.jpg" alt="บูธ Thai Virawat ในงานแสดงสินค้า" width="900" height="520" loading="lazy" />
+                </div>
+                <div class="news-body">
+                  <time class="news-date" datetime="2025-12-01">1 ธันวาคม 2568</time>
+                  <h3>Highlights: ภาพกิจกรรมและนวัตกรรมในงาน IEEE 2025</h3>
+                  <p>สรุปภาพบรรยากาศการเข้าร่วมงาน IEEE PES GTD Asia 2025 ณ ศูนย์การประชุมแห่งชาติสิริกิติ์</p>
+                  <a class="news-link" href="news.html">อ่านต่อ</a>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-thumb">
+                  <img src="assets/news/news-2.jpg" alt="งานประชุม IEEE PES GTD Asia 2025" width="900" height="520" loading="lazy" />
+                </div>
+                <div class="news-body">
+                  <time class="news-date" datetime="2025-11-26">26 พฤศจิกายน 2568</time>
+                  <h3>Thai Virawat at IEEE PES GTD Asia 2025</h3>
+                  <p>พบกันในงานประชุมด้านไฟฟ้าและกริดที่ใหญ่ที่สุดในเอเชีย 27–29 พฤศจิกายน 2568 กรุงเทพฯ</p>
+                  <a class="news-link" href="news.html">อ่านต่อ</a>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-thumb">
+                  <img src="assets/news/news-3.jpg" alt="ทีมงานหน้าบูธ Thai Virawat" width="900" height="520" loading="lazy" />
+                </div>
+                <div class="news-body">
+                  <time class="news-date" datetime="2025-12-01">1 ธันวาคม 2568</time>
+                  <h3>ประมวลภาพงาน IEEE PES GTD Asia 2025</h3>
+                  <p>ชมภาพบรรยากาศบูธและนวัตกรรมระบบไฟฟ้าล่าสุดที่ไทยวีรวัฒน์นำเสนอในงาน</p>
+                  <a class="news-link" href="news.html">อ่านต่อ</a>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-thumb">
+                  <img src="assets/news/news-4.jpg" alt="กิจกรรมเพื่อสังคมของกลุ่มบริษัท" width="900" height="520" loading="lazy" />
+                </div>
+                <div class="news-body">
+                  <time class="news-date" datetime="2025-08-15">15 สิงหาคม 2568</time>
+                  <h3>กิจกรรมเพื่อสังคมของกลุ่มบริษัท</h3>
+                  <p>ไทยวีรวัฒน์ร่วมกิจกรรมเพื่อชุมชน สะท้อนความรับผิดชอบต่อสังคมและการพัฒนาอย่างยั่งยืน</p>
+                  <a class="news-link" href="news.html">อ่านต่อ</a>
+                </div>
+              </article>
+
+              <article class="news-card">
+                <div class="news-thumb">
+                  <img src="assets/news/news-5.jpg" alt="อบรมผลิตภัณฑ์และความรู้ทางเทคนิค" width="900" height="520" loading="lazy" />
+                </div>
+                <div class="news-body">
+                  <time class="news-date" datetime="2025-03-20">20 มีนาคม 2568</time>
+                  <h3>อบรมความรู้ด้านผลิตภัณฑ์ให้ทีมวิศวกร</h3>
+                  <p>เสริมศักยภาพทีมงานเพื่อให้บริการคำปรึกษาและสนับสนุนทางเทคนิคแก่ลูกค้าได้อย่างมืออาชีพ</p>
+                  <a class="news-link" href="news.html">อ่านต่อ</a>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <button class="news-nav news-nav--next" type="button" data-news-next aria-label="ถัดไป">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+
+          <div class="news-dots" data-news-dots aria-label="เลือกสไลด์"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-careers" id="careers-preview">
+      <div class="container">
+        <div class="careers-banner">
+          <div class="careers-banner-copy">
+            <p class="careers-label">Careers</p>
+            <h2 class="careers-title">ร่วมงานกับเรา</h2>
+            <p class="careers-desc">
+              กลุ่มบริษัทไทยวีรวัฒน์ สะสมประสบการณ์และความเชื่อมั่นมากกว่า 60 ปี
+              ด้วยพื้นฐานอันแข็งแกร่งในธุรกิจพลังงาน ระบบไฟฟ้า และอสังหาริมทรัพย์
+              เรายินดีต้อนรับบุคลากรที่มีศักยภาพ มีความมุ่งมั่น และพร้อมที่จะเติบโตไปพร้อมกับองค์กร
+            </p>
+            <div class="careers-tags">
+              <span class="careers-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                ความมั่นคงในองค์กรชั้นนำ
+              </span>
+              <span class="careers-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                โอกาสเรียนรู้อุปกรณ์มาตรฐานระดับโลก
+              </span>
+            </div>
+          </div>
+          <div class="careers-banner-cta">
+            <a class="careers-btn" href="careers.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              ส่งประวัติสมัครงาน (Resume)
+            </a>
+            <a class="careers-phone" href="tel:+66816499779">สอบถามฝ่ายบุคคล: 081-649-9779</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Thai Virawat Co., Ltd.</p>
+        <p>บริษัท ไทยวีรวัฒน์ จำกัด</p>
+        <p>123 ถนนตัวอย่าง แขวงตัวอย่าง เขตตัวอย่าง กรุงเทพฯ 10100</p>
+        <div class="footer-map">Google Maps</div>
+      </div>
+      <div>
+        <h4>Sitemap</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="about.html">เกี่ยวกับเรา</a></li>
+          <li><a href="products.html">ผลิตภัณฑ์ &amp; บริการ</a></li>
+          <li><a href="customers.html">ลูกค้าของเรา</a></li>
+          <li><a href="news.html">ข่าวสาร &amp; กิจกรรม</a></li>
+          <li><a href="careers.html">ร่วมงานกับเรา</a></li>
+          <li><a href="contact.html">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>ติดต่อเรา</h4>
+        <p>โทร: <a href="tel:+6621234567">02-123-4567</a></p>
+        <p>อีเมล: <a href="mailto:info@thaivirawat.co.th">info@thaivirawat.co.th</a></p>
+        <p>จันทร์–ศุกร์ 08:30–17:30 น.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© 2024 Thai Virawat Co., Ltd. — All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
